@@ -52,7 +52,7 @@ useEffect(() =>{
           <div className="title">{item.title}</div>
           <div><span>{item.release_date}</span></div> 
         <div className='message'>{item.opening_crawl}</div>
-        <a href="#">More Info</a>
+        <p>More Info</p>
         </div>
        
       </li>)
