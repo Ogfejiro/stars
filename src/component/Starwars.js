@@ -1,9 +1,10 @@
 import React, { useEffect, useState } from 'react'
-
+import {Link} from 'react-router-dom'
 
 
 
 const Starwars = () => {
+ 
 
 const [loading, setloading] = useState(true)
 const [data, setData] = useState([])
@@ -52,8 +53,11 @@ useEffect(() =>{
           <div className="title">{item.title}</div>
           <div><span>{item.release_date}</span></div> 
         <div className='message'>{item.opening_crawl}</div>
-        <p>More Info</p>
+        <Link to={`/Details?k=${item.url}`} >
+                  More info
+                </Link>
         </div>
+        
        
       </li>)
       })}

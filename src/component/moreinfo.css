@@ -1,0 +1,92 @@
+.container{
+    box-sizing: border-box;
+    background-color: black;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: "Star Jedi", "Open Sans", sans-serif;
+  
+}
+
+
+.logo{
+    margin: auto;
+    fill: rgb(255, 232, 31);
+    width: 40%;
+    max-width: 70rem;
+    padding-top: 20px;
+}
+
+
+header{
+height: fit-content;
+}
+
+.more-ul{
+background-color: rgb(39, 39, 39);
+border-radius: 5px;
+width: 1100px;
+
+}
+
+.more-content {
+width: 1100px;
+}
+
+.first3{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+width: 1100px;
+}
+
+.description{
+color: gray;
+font-weight: 500;
+padding-bottom: 15px;
+padding-left: 20px;
+
+}
+
+.moreopening-crawl{
+padding-bottom: 30px;
+border-bottom: 2px solid rgb(75, 73, 73);
+width: 1040px;
+text-align: justify;
+padding-left: 10px;
+}
+
+.characters, .planets, .starships, .species{
+border-bottom: 2px solid rgb(75, 73, 73);
+display: block;
+
+padding-bottom: 90px;
+color: rgb(255, 255, 255);
+
+
+
+}
+
+.vehicles{
+display: grid;
+grid-template-columns: 10px;
+padding-bottom: 40px;
+}
+
+.details{
+list-style-type: disc;
+margin: 0;
+padding: 0;
+line-height: 0%;
+}
+
+button{
+background: transparent;
+color: gray;
+font-size: 15px;
+border: none;
+}
